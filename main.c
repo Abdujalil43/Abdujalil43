@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-#define PI 3.14
+// #define PI 3.14
+
+typedef struct {
+	int point;
+	int angle;
+} Rectangle;
 
 int add_two(int a, int b) {
 	return a + b;
